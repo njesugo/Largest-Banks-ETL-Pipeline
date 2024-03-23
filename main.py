@@ -47,9 +47,9 @@ def extract(url, table_atributes_init):
 
     return dataframe
 
-print('\n\n')
 log_progress("Call extract() function")
 extracted_data = extract(url, table_atributes_init)
+
 # print the contents of the returning extracted data frame
 print(extracted_data)
 log_progress("Data extraction complete. Initiating Transformation process")
